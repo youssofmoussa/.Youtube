@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      width: 100px;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      width: 300px;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+
+    article {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .video {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="youtube_logo.png" alt="YouTube Logo" class="logo">
+    <input type="text" placeholder="Search">
+    <div>
+      <img src="mic_icon.png" alt="Microphone Icon">
+      <img src="notification_icon.png" alt="Notification Icon">
+    </div>
+  </header>
+
+  <nav>
+    <div>Home</div>
+    <div>Shorts</div>
+    <div>Subscriptions</div>
+  </nav>
+
+  <article>
+    <!-- Repeat the following block for each video -->
+    <div class="video">
+      <img src="video_thumbnail1.jpg" alt="Video Thumbnail">
+      <div>
+        <img src="profile_picture1.jpg" alt="Profile Picture">
+        <p>Title of Video 1</p>
+        <p>Published 2 days ago</p>
+      </div>
+    </div>
+    <!-- End of video block -->
+  </article>
+
+  <footer>
+    <div>
+      <img src="plus_icon.png" alt="Add Videos">
+    </div>
+    <div>
+      <img src="home_icon.png" alt="Home">
+    </div>
+    <div>
+      <img src="subscription_icon.png" alt="Subscriptions">
+    </div>
+  </footer>
+
+</body>
+  </html>
+  
